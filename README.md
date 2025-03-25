@@ -1,5 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/xIbq4TFL)
-
 ## 📌 Personal Finance Tracker System
 
 This is a **MERN stack-based Budget Management API** that allows users to track their transactions, set budgets, and manage financial goals. It includes authentication, budget tracking, transaction logging, and notification management.
