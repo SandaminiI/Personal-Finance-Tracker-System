@@ -1,0 +1,14 @@
+config:
+  target: "http://localhost:8080"
+  phases:
+    - duration: 60  # Run test for 60 seconds
+      arrivalRate: 5  # Start with 5 requests per second
+      rampTo: 20  # Increase gradually
+
+scenarios:
+  - flow:
+      - post:
+          url: "http://localhost:8080/api/v1/auth/login"
+          json:
+            email: "test@example.com"
+            password: "password123"
